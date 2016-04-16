@@ -23,7 +23,7 @@ public class TestPersonService {
 	@Test
 	public void testgetPersonCount() {
 		when(serviceMock.getPersonCount()).thenReturn(1);
-		assertEquals(1, serviceMock.getPersonCount());
+		assertEquals(2, serviceMock.getPersonCount());
 	}
 
 }
